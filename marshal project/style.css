@@ -1,0 +1,403 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+
+/* about */
+
+.easyinfo { justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 100px;
+    font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            
+            background-color: rgb(255, 255, 255);
+            font-weight: 600;
+
+}
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+  
+    header{width: 1352px;
+        height: 56px;
+    
+    display: flex;
+    gap: 700px;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+    
+    
+    }
+    
+       .head{display: flex;
+        gap: 47px;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+
+    button a{ color: black;
+        text-decoration: none;
+
+    }
+
+  
+    
+    
+        button{color: #000000;
+    
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            
+            font-weight: 600;
+            line-height: 25px; /* 138.889% */
+            letter-spacing: -0.129px;
+            border-radius: 15px;
+            background-color: #ffffff;  
+        border: 2px solid black; 
+    padding: 5px;  
+    cursor: pointer;
+   }
+   button:hover{background-color: #A7AAAD;
+}
+
+.head p{
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+
+}
+            
+    
+    .about{
+        margin-top: 370px;
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+            
+            font-weight: 600;
+            line-height: 25px;
+    }
+       
+    
+        
+    
+            .text{color: #000000;
+    
+               
+                position: absolute;
+                margin-top: 220px;
+                margin-left: 400px;
+               
+               
+               
+                font-family: 'Fraunces', serif;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                letter-spacing: 8.75px;
+                text-transform: uppercase;}
+    
+                .sign{position: absolute;
+                margin-top: 350px;
+            margin-left: 700px}
+
+
+
+            .second{
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                
+            }
+
+
+
+
+
+            .teqstebi{
+                width: 50%;
+                height: 100vh;
+                margin-left: 120px;
+                margin-top: 200px;
+                
+                background-color: #fff;
+
+               
+                
+
+
+            }
+
+            .teqstebi h1{
+                width: 445px;
+
+color: #24303E;
+
+font-family: 'Fraunces', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: -0.286px;
+margin-bottom: 40px;
+
+            }
+
+            .teqstebi p{
+                width: 445px;
+
+color: #808397;
+
+font-family: 'Barlow', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 166.667% */
+letter-spacing: -0.129px;
+margin-bottom: 40px;
+
+            }
+
+            .teqstebi h2{
+                color: #24303E;
+
+                font-family: 'Fraunces', serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 900;
+line-height: 25px; /* 166.667% */
+letter-spacing: 1px;
+text-transform: uppercase;
+
+            }
+            img{ height: 100%;
+            width: 100%;}
+
+
+            .mesame{
+                height: 100vh;
+                width: 100%;
+                display: flex;
+            }
+
+            .meotxe{
+                width: 100%;
+                height: 100vh;
+                display:flex;
+
+            }
+
+            .half1{
+                width: 50%;
+                background-image: url(/image-graphic-design.jpg);
+                height: 600px;
+                
+            }
+
+            .half2{
+                width: 50%;
+                height: 600px;
+                background-image: url(/image-photography.jpg) ;
+                
+
+            }
+
+            .half1 h1{
+                color: #24554A;
+
+text-align: center;
+font-family: 'Fraunces', serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: -0.2px;
+margin-top: 400px;
+
+
+            }
+
+            .half1 p{
+                color: #3E7467;
+text-align: center;
+font-family: 'Barlow', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px; /* 168.75% */
+letter-spacing: -0.114px;
+margin-top:15px;
+margin-bottom:15px ;
+width: 339px;
+margin-left: 190px;
+            }
+
+            .half2 h1{
+                color: #24554A;
+
+text-align: center;
+font-family: 'Fraunces', serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: -0.2px;
+margin-top: 400px;
+
+
+            }
+
+            .half2 p{
+                color: #3E7467;
+text-align: center;
+font-family: 'Barlow', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px; /* 168.75% */
+letter-spacing: -0.114px;
+margin-top:15px;
+margin-bottom:15px ;
+width: 339px;
+margin-left: 190px;
+            }
+
+            .mexute{
+                width: 100%;
+                height: 100vh;
+                display:flex;
+                 padding: 100px;
+                 gap: 50px; 
+                 flex-direction: column;
+                
+            }
+            .content1{
+                width: 350px;
+               
+            }
+            .container{ display: flex;
+            gap: 50px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+            .content1 img{ border-radius: 50%;
+
+                width: 72px;
+                height: 72px;
+                flex-shrink: 0;
+                
+                margin-bottom: 72px;
+                margin-left: 139px;
+                }
+
+                .content1 p{
+                    width: 350px;
+                    margin-bottom: 50px;
+
+color: #5B636D;
+
+text-align: center;
+font-family: 'Barlow', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.129px;
+                }
+                .content1 h2{
+                    color: #24303E;
+
+text-align: center;
+font-family: 'Fraunces', serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: -0.129px;
+
+                }
+
+                .content1 span{
+                    color: #A7AAAD;
+
+text-align: center;
+font-family: 'Barlow', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 178.571% */
+letter-spacing: -0.1px;
+margin-left: 120px;
+                }
+
+                .mexute h1{ display: flex;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                }
+
+
+
+                .pictures{
+                   
+                    width: 100%;
+                    display: flex;
+                }
+
+                .pictures img{ 
+                    width: 380px;
+                    height: 460px;
+                    
+
+                }
+
+
+
+                footer {
+
+                    width:100% ;
+                    height: 350px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background: #90D4C6;
+
+                }
+
+               .saxeliarvici svg{
+                   margin-left: 629px;
+                   margin-top: 72px;
+                   margin-bottom: 40px;
+                }
+                .end{
+                    display: flex;
+                    gap: 57px;
+                    margin-left:572px ;
+                }
+
+                footer p{color: #458D7E;
+                    
+
+                    font-family: 'Barlow', sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 25px; /* 138.889% */
+                    letter-spacing: -0.129px;}
+
+                    footer svg{
+                        margin-top: 88px;
+                        margin-left: 637px;
+                        margin-bottom: 72px;
+
+                    }
